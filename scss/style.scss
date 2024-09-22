@@ -19,8 +19,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 200px;
-        margin-bottom: 200px;
+        margin-top: 100px;
+        margin-bottom: 70px;
         position: relative;
     }
 }
@@ -123,7 +123,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 95px;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
     .org-left {
         display: flex;
         align-items: center;
@@ -132,6 +132,36 @@
 }
 
 .org-1 {
+    padding: 43px 40px;
+    box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    background-color: white;
+    .org-info {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        color: rgba(11, 17, 49, 1);
+    }
+}
+.org-2 {
+    padding: 43px 40px;
+    box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    background-color: white;
+    .org-info {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        color: rgba(11, 17, 49, 1);
+    }
+}
+.org-3 {
     padding: 43px 40px;
     box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -171,6 +201,15 @@
         max-width: 473px;
         width: 100%;
     }
+    .org-title1 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: rgba(160, 171, 184, 1);
+        margin-bottom: 24px;
+        max-width: 473px;
+        width: 100%;
+    }
 }
 
 // responsive
@@ -187,7 +226,7 @@
         width: 350px;
         height: 500px;
     }
-    .organize-container{
+    .organize-container {
         gap: 40px;
     }
     .org-right {
@@ -228,7 +267,7 @@
         width: 350px;
         height: 500px;
     }
-    .organize-container{
+    .organize-container {
         gap: 20px;
     }
     .org-right {
@@ -245,16 +284,19 @@
             line-height: 48px;
             color: rgba(11, 17, 49, 1);
             max-width: 350px;
-            margin-bottom: 14px;
+            margin-bottom: 8px;
         }
         .org-title {
             font-size: 14px;
             font-weight: 400;
             line-height: 24px;
             color: rgba(160, 171, 184, 1);
-            margin-bottom: 24px;
+            margin-bottom: 8px;
             max-width: 300px;
             width: 100%;
+        }
+        .org-title1 {
+            display: none;
         }
     }
 }
@@ -286,6 +328,11 @@
         .feat-title2 {
             display: none;
         }
+    }
+}
+@media screen and (max-width: 717px) {
+    .org-3 {
+        display: none;
     }
 }
 @media screen and (max-width: 660px) {
@@ -331,7 +378,7 @@
         .feat-info {
             font-size: 30px;
             line-height: 35px;
-            color: white;
+            color: rgba(255, 255, 255,1);
             margin-bottom: 552px;
         }
         .feat-desc {
@@ -355,5 +402,8 @@
     }
     .rec-border {
         display: block;
+    }
+    .organize {
+        display: none;
     }
 }
