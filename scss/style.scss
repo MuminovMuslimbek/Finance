@@ -416,3 +416,160 @@ nav {
         }
     }
 }
+
+.services {
+    padding: 47px 0 178px 0;
+}
+
+.our_services {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 47px;
+    margin-bottom: 178px;
+}
+
+.r {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: left;
+    color: #3029d9;
+    text-align: center;
+}
+
+.the {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: center;
+    color: #0b1131;
+    margin-bottom: 104px;
+    @media screen and (max-width: 400px) {
+        line-height: 40px;
+        font-size: 35px;
+    }
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    .card {
+        background-color: #f7f5f5;
+        border-radius: 8px;
+        img {
+            width: 88px;
+            height: 88px;
+            margin-left: 143px;
+            margin-top: 63px;
+            margin-bottom: 33px;
+        }
+    }
+    @media screen and (max-width:1020px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.number {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+
+.name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 68px;
+    color: #0b1131;
+}
+
+.deskription {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #0b1131;
+    margin-bottom: 67px;
+}
+
+.card1 {
+    background-color: #3029d9;
+    border-radius: 8px;
+    img {
+        width: 88px;
+        height: 88px;
+        margin-left: 143px;
+        margin-top: 63px;
+        margin-bottom: 33px;
+    }
+}
+
+.number {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+
+.name1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 68px;
+    color: #0b1131;
+}
+
+.deskription1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #0B1131;
+    margin-bottom: 67px;
+}
+
+.card2 {
+    background-color: #1c1b36;
+    border-radius: 8px;
+    img {
+        width: 88px;
+        height: 88px;
+        margin-left: 143px;
+        margin-top: 63px;
+        margin-bottom: 33px;
+    }
+}
+
+.number {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+
+.name1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 68px;
+    color: #ffffff;
+}
+
+.deskription1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 67px;
+}
